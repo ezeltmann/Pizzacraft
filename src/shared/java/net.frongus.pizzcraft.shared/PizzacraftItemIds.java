@@ -21,5 +21,5 @@ public class PizzacraftItems {
 public static final Item CHEESE_PIZZA = register(
         PizzacraftItemIds.CHEESE_PIZZA,
         Item::new,
-        new Item.Properties()
+        new Item.Properties().food(new FoodProperties.Builder().build())
 );
